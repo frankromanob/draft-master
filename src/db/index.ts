@@ -1,0 +1,1 @@
+export * as jugadoresData from './jugadores'

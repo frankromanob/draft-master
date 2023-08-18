@@ -1,0 +1,432 @@
+{
+"jugadores":[
+ {
+  "codigo": 20075,
+  "Jugador": "Albis Pena",
+  "Vicepresidencia": "TIS",
+  "area": "CORE NETWORK & PLATFORMS",
+  "Confirmacion": "Si",
+  "posicion": "F",
+  "estatura": "5-11"
+ ,"equipo":""},
+ {
+  "codigo": 24509,
+  "Jugador": "Alex Ruiz Feliz",
+  "Vicepresidencia": "Servicio al Cliente",
+  "area": "TECNICO BACK OFFICE TSR BACK OFFICE",
+  "Confirmacion": "Si",
+  "posicion": "G",
+  "estatura": "5-8"
+ ,"equipo":""},
+ {
+  "codigo": 27110,
+  "Jugador": "Ariel Jose de la Cruz",
+  "Vicepresidencia": "Servicio al Cliente",
+  "area": "REPRESENTANTE JR DE RETENCION RETENTION INBOUND",
+  "Confirmacion": "Si",
+  "posicion": "SG",
+  "estatura": "6-5"
+ ,"equipo":""},
+ {
+  "codigo": 24029,
+  "Jugador": "Arismark Rivas Reyes",
+  "Vicepresidencia": "Servicio al Cliente",
+  "area": "REPRESENTANTE SR SOLUCIONES TECNICAS B2B B2B OUTSOURCING",
+  "Confirmacion": "Si",
+  "posicion": "F",
+  "estatura": "5-10"
+ ,"equipo":""},
+ {
+  "codigo": 2454,
+  "Jugador": "Bergson Perez",
+  "Vicepresidencia": "Finanzas",
+  "area": "INTERNAL CONTROL",
+  "Confirmacion": "No",
+  "posicion": "G",
+  "estatura": "5-6"
+ ,"equipo":""},
+ {
+  "codigo": 27165,
+  "Jugador": "Dalwin Rosario",
+  "Vicepresidencia": "Ventas",
+  "area": "OWN SHOPS",
+  "Confirmacion": "Si",
+  "posicion": "SG",
+  "estatura": "5-11"
+ ,"equipo":""},
+ {
+  "codigo": 23299,
+  "Jugador": "David Estrella",
+  "Vicepresidencia": "TIS",
+  "area": "INFRASTRUCTURE PLATFORMS",
+  "Confirmacion": "Si",
+  "posicion": "G",
+  "estatura": "5-8"
+ ,"equipo":""},
+ {
+  "codigo": 26929,
+  "Jugador": "Dennis Manuel  Hidalgo",
+  "Vicepresidencia": "Servicio al Cliente",
+  "area": "REPRESENTANTE JR DE RETENCION  RETENTION INBOUND",
+  "Confirmacion": "Si",
+  "posicion": "SG",
+  "estatura": "5-10"
+ ,"equipo":""},
+ {
+  "codigo": 26805,
+  "Jugador": "Edwin Ventura",
+  "Vicepresidencia": "Ventas",
+  "area": "OWN SHOPS",
+  "Confirmacion": "Si",
+  "posicion": "G",
+  "estatura": "5-8"
+ ,"equipo":""},
+ {
+  "codigo": 4453,
+  "Jugador": "Elias Hernandez",
+  "Vicepresidencia": "Finanzas",
+  "area": "INTERNAL CONTROL",
+  "Confirmacion": "No",
+  "posicion": "PF",
+  "estatura": "6-3"
+ ,"equipo":""},
+ {
+  "codigo": 26010,
+  "Jugador": "Ernesto espejo",
+  "Vicepresidencia": "Ventas",
+  "area": "OWN SHOPS",
+  "Confirmacion": "Si",
+  "posicion": "PF\/C",
+  "estatura": "6-4"
+ ,"equipo":""},
+ {
+  "codigo": 25146,
+  "Jugador": "Heberto Terrero",
+  "Vicepresidencia": "TIS",
+  "area": "NETWORK",
+  "Confirmacion": "Si",
+  "posicion": "G",
+  "estatura": "5-7"
+ ,"equipo":""},
+ {
+  "codigo": 2031,
+  "Jugador": "Hector Berroa",
+  "Vicepresidencia": "TIS",
+  "area": "INFRASTRUCTURE PLATFORMS",
+  "Confirmacion": "No",
+  "posicion": "SG",
+  "estatura": "5-8"
+ ,"equipo":""},
+ {
+  "codigo": 24991,
+  "Jugador": "Imanol Parra",
+  "Vicepresidencia": "Servicio al Cliente",
+  "area": "COMMERCIAL QUALITY",
+  "Confirmacion": "Si",
+  "posicion": "SG",
+  "estatura": "5-9"
+ ,"equipo":""},
+ {
+  "codigo": 26278,
+  "Jugador": "Isaac Lopez",
+  "Vicepresidencia": "TIS",
+  "area": "NETWORK",
+  "Confirmacion": "Si",
+  "posicion": "SG \/F",
+  "estatura": "5-10"
+ ,"equipo":""},
+ {
+  "codigo": 26578,
+  "Jugador": "Jefrey tejada",
+  "Vicepresidencia": "Ventas",
+  "area": "TELESALES OUTBOUND",
+  "Confirmacion": "Si",
+  "posicion": "F",
+  "estatura": "6-2"
+ ,"equipo":""},
+ {
+  "codigo": 24161,
+  "Jugador": "Jheam Melenciano Perez",
+  "Vicepresidencia": "Servicio al Cliente",
+  "area": "COMMERCIAL QUALITY",
+  "Confirmacion": "Si",
+  "posicion": "G",
+  "estatura": "5-7"
+ ,"equipo":""},
+ {
+  "codigo": 26609,
+  "Jugador": "Joaquin Alejandro Rodriguez Carvajal",
+  "Vicepresidencia": "TIS",
+  "area": "INGENIERO JR DE REDES  FIXED ACCESS",
+  "Confirmacion": "Si",
+  "posicion": "PF",
+  "estatura": "6-2"
+ ,"equipo":""},
+ {
+  "codigo": 25002,
+  "Jugador": "Joe Jimenez",
+  "Vicepresidencia": "Finanzas",
+  "area": "BILLING, CREDIT & COLLECTION",
+  "Confirmacion": "Si",
+  "posicion": "PF",
+  "estatura": "6-0"
+ ,"equipo":""},
+ {
+  "codigo": 23185,
+  "Jugador": "Joel rivas",
+  "Vicepresidencia": "Ventas",
+  "area": "OWN SHOPS",
+  "Confirmacion": "Si",
+  "posicion": "G",
+  "estatura": "5-11"
+ ,"equipo":""},
+ {
+  "codigo": 23267,
+  "Jugador": "Johan Gil",
+  "Vicepresidencia": "Servicio al Cliente",
+  "area": "CUSTOMER OPERATIONS",
+  "Confirmacion": "Si",
+  "posicion": "PF",
+  "estatura": "6-0"
+ ,"equipo":""},
+ {
+  "codigo": 24987,
+  "Jugador": "Johan Luis Sanchez",
+  "Vicepresidencia": "Servicio al Cliente",
+  "area": "B2C TECHNICAL SOLUTIONS",
+  "Confirmacion": "Si",
+  "posicion": "SG",
+  "estatura": "5-11"
+ ,"equipo":""},
+ {
+  "codigo": 24949,
+  "Jugador": "Jorge Ramirez",
+  "Vicepresidencia": "Finanzas",
+  "area": "BILLING, CREDIT & COLLECTION",
+  "Confirmacion": "Si",
+  "posicion": "F",
+  "estatura": "5-8"
+ ,"equipo":""},
+ {
+  "codigo": 25612,
+  "Jugador": "Jose Lantigua",
+  "Vicepresidencia": "Ventas",
+  "area": "B2B SALES",
+  "Confirmacion": "Si",
+  "posicion": "C",
+  "estatura": "6-3"
+ ,"equipo":""},
+ {
+  "codigo": 25994,
+  "Jugador": "Jose Miguel Garcia",
+  "Vicepresidencia": "TIS",
+  "area": "NETWORK",
+  "Confirmacion": "Si",
+  "posicion": "F",
+  "estatura": "5-9"
+ ,"equipo":""},
+ {
+  "codigo": 23485,
+  "Jugador": "Juan Marte",
+  "Vicepresidencia": "Mercadeo",
+  "area": "MARKETING SEGMENTS",
+  "Confirmacion": "Si",
+  "posicion": "C",
+  "estatura": "6-4"
+ ,"equipo":""},
+ {
+  "codigo": 19580,
+  "Jugador": "Julio Frias",
+  "Vicepresidencia": "Finanzas",
+  "area": "INTERNAL CONTROL",
+  "Confirmacion": "Si",
+  "posicion": "F",
+  "estatura": "6-0"
+ ,"equipo":""},
+ {
+  "codigo": 23179,
+  "Jugador": "Kilvio Yeniel Ramírez Gómez",
+  "Vicepresidencia": "Ventas",
+  "area": "OWN SHOPS",
+  "Confirmacion": "Si",
+  "posicion": "SG",
+  "estatura": "5-8"
+ ,"equipo":""},
+ {
+  "codigo": 24978,
+  "Jugador": "Luis Pozo",
+  "Vicepresidencia": "Servicio al Cliente",
+  "area": "CUSTOMER EXPERIENCE",
+  "Confirmacion": "Si",
+  "posicion": "F",
+  "estatura": "6-0"
+ ,"equipo":""},
+ {
+  "codigo": 26481,
+  "Jugador": "Manuel de Jesus de los Santos",
+  "Vicepresidencia": "Ventas",
+  "area": "OWN SHOPS",
+  "Confirmacion": "Si",
+  "posicion": "G",
+  "estatura": "5-8"
+ ,"equipo":""},
+ {
+  "codigo": 24270,
+  "Jugador": "Miguel Zaro",
+  "Vicepresidencia": "Servicio al Cliente",
+  "area": "B2C TECHNICAL SOLUTIONS",
+  "Confirmacion": "Si",
+  "posicion": "G",
+  "estatura": "5-7"
+ ,"equipo":""},
+ {
+  "codigo": 25639,
+  "Jugador": "Moises Rojas",
+  "Vicepresidencia": "TIS",
+  "area": "NETWORK",
+  "Confirmacion": "Si",
+  "posicion": "SG",
+  "estatura": "5-5"
+ ,"equipo":""},
+ {
+  "codigo": 26131,
+  "Jugador": "Rafael Brache",
+  "Vicepresidencia": "TIS",
+  "area": "INFORMATION SYSTEMS",
+  "Confirmacion": "Si",
+  "posicion": "SG",
+  "estatura": "5-9"
+ ,"equipo":""},
+ {
+  "codigo": 23091,
+  "Jugador": "Rafael Genao",
+  "Vicepresidencia": "Ventas",
+  "area": "B2B SALES",
+  "Confirmacion": "Si",
+  "posicion": "PF",
+  "estatura": "6"
+ ,"equipo":""},
+ {
+  "codigo": 23283,
+  "Jugador": "Rainer Aponte",
+  "Vicepresidencia": "TIS",
+  "area": "NETWORK",
+  "Confirmacion": "Si",
+  "posicion": "F",
+  "estatura": "5-9"
+ ,"equipo":""},
+ {
+  "codigo": 24507,
+  "Jugador": "Raul Nuñez",
+  "Vicepresidencia": "Servicio al Cliente",
+  "area": "B2C TECHNICAL SOLUTIONS",
+  "Confirmacion": "Si",
+  "posicion": "G",
+  "estatura": "5-10"
+ ,"equipo":""},
+ {
+  "codigo": 25911,
+  "Jugador": "Rendy Figuereo",
+  "Vicepresidencia": "Servicio al Cliente",
+  "area": "RETENTION",
+  "Confirmacion": "Si",
+  "posicion": "F",
+  "estatura": "5-11"
+ ,"equipo":""},
+ {
+  "codigo": 25683,
+  "Jugador": "Reymir Vásquez Álvarez",
+  "Vicepresidencia": "Ventas",
+  "area": "OWN SHOPS",
+  "Confirmacion": "Si",
+  "posicion": "C",
+  "estatura": "6-3"
+ ,"equipo":""},
+ {
+  "codigo": 23978,
+  "Jugador": "Samuel Torres",
+  "Vicepresidencia": "TIS",
+  "area": "CORE NETWORK",
+  "Confirmacion": "Si",
+  "posicion": "G",
+  "estatura": "5-9"
+ ,"equipo":""},
+ {
+  "codigo": 2146,
+  "Jugador": "Socrates Diaz",
+  "Vicepresidencia": "Ventas",
+  "area": "QUALITY SALES",
+  "Confirmacion": "Si",
+  "posicion": "C",
+  "estatura": "6-4"
+ ,"equipo":""},
+ {
+  "codigo": 23544,
+  "Jugador": "Victor Consuegra",
+  "Vicepresidencia": "Finanzas",
+  "area": "ACCOUNTING",
+  "Confirmacion": "Si",
+  "posicion": "F",
+  "estatura": "5-9"
+ ,"equipo":""},
+ {
+  "codigo": 25850,
+  "Jugador": "Widhinson Escalona",
+  "Vicepresidencia": "Ventas",
+  "area": "OWN SHOPS",
+  "Confirmacion": "Si",
+  "posicion": "SG",
+  "estatura": "5-11"
+ ,"equipo":""},
+ {
+  "codigo": 25368,
+  "Jugador": "Wilson Veras",
+  "Vicepresidencia": "Finanzas",
+  "area": "BILLING, CREDIT & COLLECTION",
+  "Confirmacion": "Si",
+  "posicion": "G",
+  "estatura": "5-7"
+ ,"equipo":""},
+ {
+  "codigo": 4111,
+  "Jugador": "Winkler Rubio",
+  "Vicepresidencia": "Finanzas",
+  "area": "INTERNAL CONTROL",
+  "Confirmacion": "Si",
+  "posicion": "PF",
+  "estatura": "5-11"
+ ,"equipo":""}
+],
+"DIRECTIVA":[
+ {
+  "codigo": 2454,
+  "Jugador": "Bergson Perez",
+  "area": "INTERNAL CONTROL"
+ ,"equipo":""},
+ {
+  "codigo": 19580,
+  "Jugador": "Julio Frias",
+  "area": "INTERNAL CONTROL"
+ ,"equipo":""},
+ {
+  "codigo": 2146,
+  "Jugador": "Socrates Diaz",
+  "area": "QUALITY SALES"
+ ,"equipo":""},
+ {
+  "codigo": 25994,
+  "Jugador": "Jose Miguel Garcia",
+  "area": "NETWORK"
+ ,"equipo":""},
+ {
+  "codigo": 23978,
+  "Jugador": "Samuel Torres",
+  "area": "CORE NETWORK"
+ ,"equipo":""},
+ {
+  "codigo": 24270,
+  "Jugador": "Miguel Zaro",
+  "area": "B2C TECHNICAL SOLUTIONS"
+ ,"equipo":""}
+]
+}
