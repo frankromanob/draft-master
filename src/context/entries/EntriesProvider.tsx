@@ -2,6 +2,8 @@ import { PropsWithChildren, useEffect, useReducer } from 'react';
 import { entriesReducer, EntriesContext } from '.';
 import { Jugador } from '@/interfaces';
 import { jugadoresData } from '../../db'
+import jugadoresApi from '@/api/jugadoresApi';
+
 
 export interface JugadorState {
    jugador: Jugador[]
@@ -18,9 +20,8 @@ export const EntriesProvider = ({ children }: PropsWithChildren) => {
 
    const updateJugador = async (jugador: Jugador) => {
       try {
-        // await entriesApi.put<Entry>(`/entries/${entry._id}`, { description: entry.description, status: entry.status })
+         await jugadoresApi.put<Jugador>(`/jugadores/${jugador.codigo}`, { equipo: jugador.equipo, pick: jugador.pick, ronda:jugador.ronda })
          //await entriesApi.post('/entries', data)
-
       } catch (error) {
 
       }
@@ -29,8 +30,9 @@ export const EntriesProvider = ({ children }: PropsWithChildren) => {
    }
 
    const refreshJugadores = async () => {
-      const { jugadores } = jugadoresData.listaJugadores
-      dispatch({ type: 'Entries - LoadEntries', payload: jugadores })
+         const { data } = await jugadoresApi.get<Jugador[]>('/jugadores')
+     // const { jugadores } = jugadoresData.listaJugadores
+      dispatch({ type: 'Entries - LoadEntries', payload: data })
    }
 
    useEffect(() => {

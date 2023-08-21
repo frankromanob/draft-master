@@ -22,6 +22,7 @@ export const entriesReducer = (state: JugadorState, action: EntriesActionType): 
                 jugador: state.jugador.map(jugador => {
                     if (jugador.codigo === action.payload.codigo) {
                         jugador.equipo = action.payload.equipo;
+                        jugador.pick=action.payload.pick;
                     }
                     return jugador
                 })
