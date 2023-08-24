@@ -14,9 +14,9 @@ export default async function handler(
 {
 
 
-    if (process.env.NODE_ENV === 'production') {
-        return res.status(401).json({ message: 'No es posible para producción' })
-    }
+    // if (process.env.NODE_ENV === 'production') {
+    //     return res.status(401).json({ message: 'No es posible para producción' })
+    // }
 
     await db.connect();
 
