@@ -1,4 +1,5 @@
-import { UIState } from './';
+import { useContext } from 'react';
+import { UIContext, UIState } from './';
 
 type UIActionType =
     | { type: 'UI - Open Sidebar' }
@@ -7,6 +8,7 @@ type UIActionType =
     | { type: 'UI - StartDragging' }
     | { type: 'UI - StopDragging' }
     | { type: 'UI - SetRonda', payload: number }
+    | { type: 'UI - SetPick', payload: number }
 
 export const uiReducer = (state: UIState, action: UIActionType): UIState => {
 
@@ -40,6 +42,11 @@ export const uiReducer = (state: UIState, action: UIActionType): UIState => {
             return {
                 ...state,
                 laRonda: action.payload,
+            }
+        case 'UI - SetPick':
+            return {
+                ...state,
+                elPick: action.payload,
             }
         default:
             return state;

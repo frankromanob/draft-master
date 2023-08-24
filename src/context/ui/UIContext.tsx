@@ -5,6 +5,7 @@ export interface contextProps {
     isAdding: boolean;
     isDragging: boolean;
     laRonda:number;
+    elPick:number;
     //Methods
     openSideMenu: () => void;
     closeSideMenu: () => void;
@@ -12,6 +13,7 @@ export interface contextProps {
     startDragging: () => void;
     stopDragging: () => void;
     setRonda:(laRonda:number)=>void;
+    setPick:(elPick:number)=>void;
 }
 
 export const UIContext = createContext({} as contextProps);

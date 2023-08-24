@@ -11,7 +11,9 @@ import Image from 'next/image';
 export default function HomePage() {
   const { refreshJugadores } = useContext(EntriesContext)
 
-  const {laRonda, setRonda} = useContext(UIContext)
+  const {laRonda, setRonda, elPick} = useContext(UIContext)
+
+
 
   const  handleClick=(iRonda:number)=>{
       setRonda(iRonda)
@@ -32,6 +34,7 @@ export default function HomePage() {
           <Card sx={{ height: 'calc(100vh - 100px)' }}>
             <CardHeader title="Jugadores" />
             <CardContent>
+              <Typography variant='h5' sx={{display:'flex', justifyContent:'center',marginBottom:2}}>Pick: {elPick}</Typography>
               <EntriesList equipo="Draft" ronda={(laRonda+1).toString()} />
             </CardContent>
           </Card>
@@ -40,7 +43,7 @@ export default function HomePage() {
         <Grid item xs={12} sm={2.4} >
           <Card sx={{height: 'calc(100vh - 100px)' }}>
             <div style={{margin:5, justifyContent:'center',display:'flex'}} >
-              <Image alt='5G' src='/img/5g.png' width='200' height="100"/>
+              <Image alt='5G' src='/img/5G.png' width='200' height="100"/>
             </div>
             <CardContent >
               <EntriesList equipo='5G' />
@@ -51,7 +54,7 @@ export default function HomePage() {
         <Grid item xs={12} sm={2.4} >
           <Card sx={{ height: 'calc(100vh - 100px)' }}>
           <div style={{margin:5, justifyContent:'center',display:'flex'}} >
-              <Image alt='Altice Power' src='/img/alticepower.png' width='180' height="100"/>
+              <Image alt='Altice Power' src='/img/AlticePower.png' width='180' height="100"/>
             </div>
             <CardContent>
               <EntriesList equipo='AlticePower' />
@@ -62,7 +65,7 @@ export default function HomePage() {
         <Grid item xs={12} sm={2.4} >
           <Card sx={{ height: 'calc(100vh - 100px)' }}>
           <div style={{margin:5, justifyContent:'center',display:'flex'}} >
-              <Image alt='Los Pro' src='/img/lospro.png' width='160' height="100"/>
+              <Image alt='Los Pro' src='/img/LosPro.png' width='160' height="100"/>
             </div>
             <CardContent>
               <EntriesList equipo='LosPro' />
@@ -73,7 +76,7 @@ export default function HomePage() {
         <Grid item xs={12} sm={2.4} >
           <Card sx={{ height: 'calc(100vh - 100px)' }}>
           <div style={{margin:5, justifyContent:'center',display:'flex'}} >
-              <Image alt='Alta Gama' src='/img/altagama.png' width='180' height="100"/>
+              <Image alt='Alta Gama' src='/img/AltaGama.png' width='180' height="100"/>
             </div>
             <CardContent>
               <EntriesList equipo='AltaGama' />

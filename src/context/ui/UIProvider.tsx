@@ -6,6 +6,7 @@ export interface UIState {
    isAdding: boolean,
    isDragging:boolean,
    laRonda:number,
+   elPick: number
 }
 
 const UI_INITIAL_STATE: UIState = {
@@ -13,6 +14,7 @@ const UI_INITIAL_STATE: UIState = {
    isAdding:false,
    isDragging:false,
    laRonda:0,
+   elPick:1,
 }
 
 export const UIProvider = ({ children }: PropsWithChildren) => {
@@ -43,6 +45,10 @@ export const UIProvider = ({ children }: PropsWithChildren) => {
       dispatch({type: 'UI - SetRonda',payload:laRonda})
    }
 
+   const setPick =(elPick:number) =>{
+      dispatch({type: 'UI - SetPick',payload:elPick})
+   }
+
    return (
       <UIContext.Provider value={{
          ...state,
@@ -52,6 +58,7 @@ export const UIProvider = ({ children }: PropsWithChildren) => {
          startDragging,
          stopDragging,
          setRonda,
+         setPick,
       }}>
          {children}
       </UIContext.Provider>

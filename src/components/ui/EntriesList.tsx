@@ -9,23 +9,31 @@ import styles from './EntryList.module.css'
 
 interface Props {
     equipo: EquipoAsignado;
-    ronda?:string;
+    ronda?: string;
 }
 
-export const EntriesList = ({ equipo,ronda="" }: Props) => {
+export const EntriesList = ({ equipo, ronda = "" }: Props) => {
 
-    const { jugador,updateJugador } = useContext(EntriesContext)
+    const { jugador, updateJugador } = useContext(EntriesContext)
 
-    const { laRonda,isDragging,stopDragging} = useContext(UIContext)
+    const { elPick, setPick, laRonda, isDragging, stopDragging } = useContext(UIContext)
 
-    const entriesByStatus = useMemo(() => jugador.filter(jugador => jugador.equipo === equipo && jugador.ronda===ronda), [jugador])
+    const entriesByStatus = useMemo(() => jugador.filter(jugador => jugador.equipo === equipo && jugador.ronda === ronda), [jugador])
 
     const onDropEntry = (event: DragEvent) => {
         const nombre = event.dataTransfer.getData('nombre');
-        const eljugador= jugador.find(e=> e.nombre===nombre)!;
+        const eljugador = jugador.find(e => e.nombre === nombre)!;
         eljugador.equipo = equipo;
-        //TODO: ronda del estado
-        eljugador.equipo=='Draft'? eljugador.ronda=(laRonda+1).toString() : eljugador.ronda="";
+        if (eljugador.equipo == 'Draft') {
+            eljugador.ronda = (laRonda + 1).toString()
+            eljugador.pick = '0'
+        } else {
+            eljugador.ronda = "";
+            if (eljugador.pick == "0") {
+                eljugador.pick = elPick.toString();
+                setPick(elPick + 1)
+            }
+        }
         updateJugador(eljugador);
         stopDragging();
     }
@@ -38,13 +46,13 @@ export const EntriesList = ({ equipo,ronda="" }: Props) => {
         <div
             onDrop={onDropEntry}
             onDragOver={allowDrop}
-            className={isDragging?styles.dragging:''}
+            className={isDragging ? styles.dragging : ''}
         >
             <Paper sx={{ height: 'calc(100vh - 250px)', overflow: 'scroll', backgroundColor: 'transparent', padding: '1px 5px' }}>
-                <List sx={{ opacity: isDragging ? 0.1:1, transition:'all 0.3s' }}>
+                <List sx={{ opacity: isDragging ? 0.1 : 1, transition: 'all 0.3s' }}>
                     {
                         entriesByStatus.map(jugador => (
-                            <EntryCard key={jugador.nombre} jugador={jugador}/>
+                            <EntryCard key={jugador.nombre} jugador={jugador} />
                         ))
                     }
                 </List>
