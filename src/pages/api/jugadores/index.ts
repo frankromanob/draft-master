@@ -26,7 +26,7 @@ const getJugadores = async (req: NextApiRequest,res: NextApiResponse<Data>) => {
 
     await db.connect()
 
-    const jugadores = await Jugadores.find().lean()
+    const jugadores = await Jugadores.find().sort({"pick":1,"ronda":1}).lean()
     await db.disconnect()
     res.status(200).json(jugadores)
 }
